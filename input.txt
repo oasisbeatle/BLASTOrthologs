@@ -1,0 +1,3 @@
+blast_path = /Users/abhishekdash/ncbi-blast-2.15.0+/bin/blastp
+proteome_1 = /Users/abhishekdash/blastdb/drosoph-ribosome.fasta
+proteome_2 = /Users/abhishekdash/blastdb/yeast-ribosome.fasta

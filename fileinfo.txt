@@ -1,0 +1,5 @@
+The following are the files contained in the project:
+p1.py -> runs blast and loads databases
+p2.py -> searches alignment of two proteins using database 
+p3.py -> finds all orthologs in the proteome 
+project_model.py -> stores the database schema
