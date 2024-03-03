@@ -25,7 +25,7 @@ align_bool = 0
 # Fetch forward alignment
 try:
     align_1 =  Alignments.select(Alignments.q.query_protein == protein_1_key
-                                and Alignments.q.ref_protein == protein_2_key)[0]
+                                & Alignments.q.ref_protein == protein_2_key)[0]
 except NameError:
     print("The protein accessions can not be found in the database!")
     sys.exit(1)
@@ -35,7 +35,7 @@ except IndexError:
 # Fetch reverse alignment 
 try:
     align_2 = Alignments.select(Alignments.q.query_protein == protein_2_key
-                                and Alignments.q.ref_protein == protein_1_key)[0]
+                                & Alignments.q.ref_protein == protein_1_key)[0]
 except NameError:
     print("The protein accessions can not be found in the database!")
     sys.exit(1)
